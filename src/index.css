@@ -233,7 +233,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: glow-hue-shift 6s linear infinite;
+    background-position: 50% 50%;
     filter: drop-shadow(0 0 18px hsla(243, 90%, 70%, 0.55))
             drop-shadow(0 0 36px hsla(186, 100%, 60%, 0.35));
   }
