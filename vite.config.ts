@@ -4,8 +4,12 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 import tailwindcss from "@tailwindcss/vite";
 
+const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+const base = process.env.GITHUB_ACTIONS && repositoryName ? `/${repositoryName}/` : "/";
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base,
   server: {
     host: "::",
     port: 8080,
