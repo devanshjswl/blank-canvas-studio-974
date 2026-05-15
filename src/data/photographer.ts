@@ -1,41 +1,39 @@
 import type { PhotographerInfo } from '@/types';
 
 export const photographerInfo: PhotographerInfo = {
-  name: 'Sarah Mitchell',
-  tagline: 'Editorial & Commercial Photographer',
-  heroIntroduction: 'Creating visual narratives that capture authentic moments and timeless stories.',
-  biography: `Sarah Mitchell is an award-winning photographer specializing in editorial and commercial work, with recognition including the International Photography Awards Editorial Photographer of the Year 2023 and PDN Photo Annual Winner 2022. With over a decade of experience, her work has been featured in numerous international publications and exhibitions, collaborating with clients such as Vogue, The New York Times, National Geographic, Adobe, Apple, Nike, and Architectural Digest.
+  name: 'Devansh Jaiswal',
+  tagline: 'Web Designer & Developer — Cheap and Best',
+  heroIntroduction: 'I design and build fast, clean websites and web apps that help small businesses and creators look credible online — without the agency price tag.',
+  biography: `I'm Devansh Jaiswal, a web designer and developer focused on shipping modern, reliable websites that don't break the bank. I work with founders, freelancers, and small teams to turn ideas into polished, production-ready products.
 
-Based in New York with an MFA in Photography from the School of Visual Arts, Sarah brings a unique perspective to every project, combining technical excellence with artistic vision. Her approach to photography is deeply rooted in storytelling, believing that every image should convey emotion and meaning beyond its visual appeal.`,
-  approach: `My photography is guided by three principles: authenticity, composition, and light. I believe the best images emerge when subjects feel comfortable and genuine, when composition guides the viewer's eye naturally, and when light reveals the essence of the moment.
+From simple landing pages to full web applications, I handle design, development, and deployment end-to-end. My goal is straightforward: deliver work that looks great, performs well, and gets your project live quickly — all at a price that actually makes sense.`,
+  approach: `My process is built on three things: clarity, speed, and craft. I start by understanding what you actually need (and what you don't), build with modern tools that keep things fast and maintainable, and obsess over the details that make a site feel premium.
 
-Whether working on editorial assignments or commercial projects, I strive to create images that transcend their immediate purpose and become lasting visual statements.`,
+Whether it's a one-page portfolio or a full SaaS dashboard, I aim to ship work I'm proud of — and that you'll be proud to share.`,
   awards: [
-    'International Photography Awards - Editorial Photographer of the Year 2023',
-    'PDN Photo Annual - Winner 2022',
-    'Hasselblad Masters Finalist 2021',
-    'Communication Arts Photography Annual 2020'
+    'Built and shipped 20+ production websites and web apps',
+    'Specialist in React, TypeScript, Tailwind CSS, and modern web tooling',
+    'Available for freelance and contract work worldwide',
+    'Fast turnaround — most landing pages live within a week'
   ],
   clients: [
-    'Vogue',
-    'The New York Times',
-    'National Geographic',
-    'Adobe',
-    'Apple',
-    'Nike',
-    'Patagonia',
-    'Architectural Digest'
+    'Small Businesses',
+    'Startups',
+    'Creators',
+    'Freelancers',
+    'Agencies',
+    'E-commerce Brands'
   ],
-  education: 'MFA Photography, School of Visual Arts, New York',
-  location: 'New York, NY',
-  email: 'hello@sarahmitchell.com',
-  phone: '+1 (555) 123-4567',
-  availability: 'Currently booking for Q2 2025',
+  education: 'Self-taught web developer · Continuous learner',
+  location: 'India · Available worldwide (remote)',
+  email: 'hello@devanshjaiswal.dev',
+  phone: '+91 00000 00000',
+  availability: 'Currently accepting new projects',
   socialLinks: {
-    instagram: 'https://instagram.com/sarahmitchellphoto',
-    linkedin: 'https://linkedin.com/in/sarahmitchell',
-    behance: 'https://behance.net/sarahmitchell'
+    instagram: 'https://instagram.com/',
+    linkedin: 'https://linkedin.com/',
+    behance: 'https://github.com/'
   },
-  // Photo by Joshua Sun on Unsplash
-  portraitImage: 'https://images.unsplash.com/photo-1585279968680-6606ee6ed134?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MDA2OTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3Njk1NjB8&ixlib=rb-4.1.0&q=80&w=1080'
+  // Photo by Christopher Gower on Unsplash
+  portraitImage: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080'
 };

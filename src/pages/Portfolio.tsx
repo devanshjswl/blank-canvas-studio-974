@@ -13,7 +13,7 @@ export default function Portfolio() {
     <>
       <SEOHead 
         title="Portfolio"
-        description="Browse my complete photography portfolio featuring portraits, landscapes, editorial work, architecture, and documentary projects."
+        description="Browse my web design and development portfolio — websites, web apps, e-commerce stores, landing pages, and UI design work."
       />
       
       <div className="min-h-screen">
@@ -29,7 +29,7 @@ export default function Portfolio() {
               Portfolio
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground font-light tracking-wide max-w-2xl mx-auto">
-              A curated collection of photography spanning diverse subjects and styles
+              A selection of websites and web apps I've designed and built
             </p>
           </motion.div>
         </div>
