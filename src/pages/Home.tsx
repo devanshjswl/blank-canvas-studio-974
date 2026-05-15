@@ -52,16 +52,16 @@ export default function Home() {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <motion.h1
-              className="text-6xl md:text-8xl lg:text-9xl font-extralight tracking-widest text-white"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.2 }}
+              className="text-glow-gradient text-6xl md:text-8xl lg:text-9xl font-bold tracking-widest"
+              initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 1.2, delay: 0.2, ease: 'easeOut' }}
             >
               {photographerInfo.name.toUpperCase()}
             </motion.h1>
-            
+
             <motion.p
-              className="text-xl md:text-2xl font-light tracking-wide text-white/90"
+              className="font-mono-tech text-sm md:text-base uppercase tracking-[0.4em] text-accent"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.4 }}
