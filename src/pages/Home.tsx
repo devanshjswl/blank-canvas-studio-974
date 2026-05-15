@@ -40,7 +40,7 @@ export default function Home() {
             <source src={heroVideo.url} type="video/mp4" />
           </video>
           {/* Gradient Overlay for text readability */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background/85" />
         </div>
 
         {/* Hero Content */}
