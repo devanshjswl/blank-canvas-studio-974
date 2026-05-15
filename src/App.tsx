@@ -88,7 +88,7 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter>
+          <BrowserRouter basename={import.meta.env.BASE_URL}>
             <SkipToContent />
             <Layout>
               <Suspense fallback={<LoadingFallback />}>
